@@ -4,12 +4,14 @@ body {
     margin: 0;
 }
 
+/*Nav bar*/
+
 .nav-bar {
     background-color: #1F2937;
     font-family: "Roboto",sans-serif;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 16px 0;
 }
 
@@ -27,8 +29,59 @@ body {
     margin: 0;
 }
 
+.links {
+    margin-right: 200px;
+}
+
 .logo {
     color: #F9FAF8;
     font-size: 24px;
     font-weight: 700;
+    margin-left: 200px;
 }
+
+/*Hero section*/
+
+.hero-section {
+    background-color: #1F2937;
+    padding: 50px;
+}
+
+.hero-img {
+    width: 610px;
+    height: 407px;
+}
+
+.hero-title {
+    color: #F9FAF8;
+    font-weight: 900;
+    font-family: "Roboto",sans-serif;
+    font-size: 48px;
+    margin: 0;
+    width: 300px;
+}
+
+.hero-text {
+    color: #E5E7EB;
+    font-family: "Roboto",sans-serif;
+    font-size: 18px;
+    width: 450px;
+}
+
+.hero-section .cta {
+    background-color: #3882F6;
+    font-family: "Roboto",sans-serif;
+    color: #F9FAF8;
+    padding: 8px 26px;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 5px;
+    margin-top: 16px;
+}
+
+.hero-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
