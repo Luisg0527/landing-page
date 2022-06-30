@@ -85,3 +85,42 @@ body {
     align-items: center;
 }
 
+/*Info Section*/
+
+/*Picture style*/
+.img{
+    border: 5px solid #3882F6;
+    border-radius: 15px;
+}
+
+/*Info style*/
+.info {
+    font-family: 'Roboto', sans-serif;
+    color: #1F2937;
+    text-align: center;
+}
+
+/*Title style*/
+.info-section h2 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #1F2937;
+    font-size: 38px;
+}
+
+/*Flex Display*/
+.info-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.info-container .info {
+    max-width: 200px;
+}
+
+.info-section {
+    margin: 50px 0 50px 0;
+}
