@@ -214,3 +214,17 @@ body {
     border-radius: 8px;
     padding: 8px 48px;
 }
+
+.footer {
+    background-color: var(--d_blue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 32px;
+}
+
+.footer-txt {
+    font-family: 'Roboto', sans-serif;
+    color: var(--d_white);
+    margin: 0;
+}
